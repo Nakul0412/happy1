@@ -1,0 +1,217 @@
+.rope {
+    width: 5px; /* Adjust the width of the rope */
+    height: 153px; /* Adjust the height of the rope */
+    background-color: white; /* Brown color, you can change this */
+    position: absolute;
+    top: 0;
+    left: 49.5%;
+    margin-left: -2.5px; /* Center the rope horizontally */
+    border-radius: 20px;
+    /* animation: swing 2s ease-in-out infinite; Swing animation */
+    transform-origin: 50% 0;
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.question{
+    height: 200px;
+    width:700px;
+    border-radius: 30px;
+    border: 5px solid white;
+    position:absolute;
+    top:15%;
+    left:27%;
+    color: white;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    /* animation: swi
+    ng2 2s linear infinite; */
+}
+@keyframes swing2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    75%{
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.set1{
+    position: absolute;
+    margin-top: 15%;
+    left:8%;
+    width:1280px;
+    height: 100px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.set2{
+    position: absolute;
+    margin-top: 24%;
+    left:8%;
+    width:1280px;
+    height: 100px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.ques{
+    width:550px;
+    border: 5px solid white;
+    border-radius: 30px;
+    color: white;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+.nextques{
+    color:#007ced;
+    font-size: 60px;
+    position:absolute;
+    top:40%;
+    right:2%;
+}
+.hide{
+    display: none;
+}
+.colorcode{
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    /* background-color: aqua; */
+    
+
+}
+.colorcodes{
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 20px; */
+    justify-content: space-between;
+    height:70px;
+}
+.divi{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.tages{
+    color: white;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 25px;
+}
+.correct{
+  background-color:orange;
+  /* background-color: orange;   */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.wrong{
+    background-color: #007ced;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.timer-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.timer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #ccc;
+    border-top-color: #3498db;
+    border-radius: 50%;
+    animation: countdown 30s linear forwards;
+}
+
+.timer::before {
+    content: attr(data-content); /* Display the data-content attribute as content */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes countdown {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.cor{
+    background-color: orange;
+}
+.wor{
+    background-color: #3498db;
+}
+.navlink{
+    text-decoration: none;
+}
+.show{
+    position: absolute;
+    top:-20%;
+    animation: come 5s ;
+    left:40%;
+    border: 0px;
+    z-index: 3;
+}
+iframe{
+    border:0px;
+}
+
+@keyframes come {
+    0%{
+       
+    }
+    70%{
+       top:20%;
+    }
+    100%{
+        top:-20%;
+    }
+}
+.photo{
+    position: absolute;
+    top:15%;
+    left:73%;
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+}
+.ansphoto{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+ 
+}

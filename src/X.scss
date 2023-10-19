@@ -1,0 +1,30 @@
+input {
+    display: none;
+  }
+  
+  label {
+    background: #f26a6a;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    width: 80px;
+  }
+  label i:before {
+    color: #fff;
+    display: block;
+    font-size: 2em;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+  }
+  
+  input:checked + label {
+    background: #8cd85a;
+  }

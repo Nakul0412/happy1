@@ -1,0 +1,164 @@
+.page {
+    padding: 40px;
+     
+  }
+  .rocketdiv{
+    position: absolute;
+    top:90%;
+  
+    cursor: pointer;
+    
+  }
+  .startup{
+    animation: go 3s ease-in 1s 1  ;
+  }
+  .rocketdiv2{
+    position: absolute;
+    top:90%;
+    left:25%;
+    z-index: 3;
+    cursor: pointer;
+  }
+  .rocketdiv3{
+    position: absolute;
+    top:90%;
+    left:50%;
+    z-index: 3;
+    cursor: pointer;
+  }
+  .rocketdiv4{
+    position: absolute;
+    top:90%;
+    left:80%;
+    z-index: 3;
+    cursor: pointer;
+  }
+  
+  @keyframes go {
+    0% {
+      transform: translate(0%,0%);
+    }
+   
+    100% {
+      transform: translate(0%,-500%);
+      opacity: 0;
+    }
+  }
+  
+  .no{
+    display: none;
+  }
+  #splash {
+      background: linear-gradient(to bottom, #007ced 1%,#cce7ff 100%);
+    background-repeat: repeat-y;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: splash 3s ease-in;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+  }
+  
+  #loader {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,0);
+  }
+  
+  #loader:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    bottom: -170px;
+    width: 3px;
+    background: #fff;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    height: 200px;
+  }
+  
+  #loader:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: 8px;
+    bottom: -190px;
+    width: 3px;
+    background: #000;
+    background: linear-gradient(to bottom, rgba(0,0,0,.2) 0%, rgba(0,0,0,.2) 50%, rgba(0,0,0,0) 100%);
+    height: 200px;
+  }
+  
+  #splash .anim {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    width: 100px;
+    transform: translate(-50%,100%);
+    animation: loader 4s linear;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+  }
+  
+  @keyframes loader {
+    0% {
+      transform: translate(-50%,110%);
+    }
+    30% {
+      transform: translate(-50%,50%);
+    }
+    100% {
+      transform: translate(-50%,0%);
+    }
+  }
+  
+  @keyframes splash {
+    0% {
+      transform: translate(0%,0%);
+    }
+    50% {
+      transform: translate(0%,0%);
+    }
+    100% {
+      transform: translate(0%,-100%);
+    }
+  }
+  .boardsign{
+    color:#007ced;
+    animation: flight 2s linear infinite;
+    animation-fill-mode: forwards;
+    font-size: 50px;
+    cursor: pointer;
+    display: inline-block;
+
+  }
+
+  .boardingdiv{
+    position: absolute;
+    top:40%;
+    right:2%;
+    font-size:30px;
+    font-family: "Staatliches", cursive;
+    letter-spacing: 0.1em;
+  }
+  @keyframes flight {
+    0% {
+      transform: translateX(0% );
+    }
+   
+    100% {
+      transform: translateX(30%);
+    }
+    
+  }
+  .yes{
+    width:60px;
+    height: 60px;
+   position: absolute;
+   top:80%;
+   left:45%;
+   cursor: pointer;
+  }

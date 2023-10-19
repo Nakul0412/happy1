@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0beffed.css",
+    "main.js": "/static/js/main.e3886fd5.js",
+    "static/media/dance.mp4": "/static/media/dance.b3bc9e34d58bfea36058.mp4",
+    "static/media/Origin.png": "/static/media/Origin.1e808719acd0f3c0541d.png",
+    "static/media/song1.mp3": "/static/media/song1.7c43108b3a9fa04abce9.mp3",
+    "static/media/night.mp3": "/static/media/night.6f078f5ef019ad86fa21.mp3",
+    "static/media/sweet.jpg": "/static/media/sweet.5732125d2e9cd32a1acf.jpg",
+    "static/media/PIC3.jpg": "/static/media/PIC3.9c8aefeffd9067d2c6db.jpg",
+    "static/media/PIC2.jpg": "/static/media/PIC2.3cf06848b2380206890b.jpg",
+    "static/media/fireworks.mp3": "/static/media/fireworks.417648d655b7759b0db0.mp3",
+    "static/media/luck.jpg": "/static/media/luck.72abaaef8575618172fa.jpg",
+    "static/media/ticking.mp3": "/static/media/ticking.d7300d9b30f2e02ab917.mp3",
+    "static/media/pol2.jpg": "/static/media/pol2.736c634a47541b3b281e.jpg",
+    "static/media/actualfirstimag.jpg": "/static/media/actualfirstimag.5c752e9d4909265104f7.jpg",
+    "static/media/fakefirstimage.jpg": "/static/media/fakefirstimage.446cf145bf73455862a3.jpg",
+    "static/media/pol1.jpg": "/static/media/pol1.446cf145bf73455862a3.jpg",
+    "static/media/fake2.jpg": "/static/media/fake2.b11524037cd9799e7a3a.jpg",
+    "static/media/hog.jpg": "/static/media/hog.03ca578a8c01ab35966a.jpg",
+    "static/media/dude2.jpeg": "/static/media/dude2.4bda40a7cf25807a1368.jpeg",
+    "static/media/PIC4.jpg": "/static/media/PIC4.0fcf4b3f74fbc27e0e51.jpg",
+    "static/media/pol4.jpg": "/static/media/pol4.0fcf4b3f74fbc27e0e51.jpg",
+    "static/media/PIC1.jpg": "/static/media/PIC1.82475b7b41b2ef9bf3df.jpg",
+    "static/media/LAUNCH.png": "/static/media/LAUNCH.4ae157055689cd89e76a.png",
+    "index.html": "/index.html",
+    "main.c0beffed.css.map": "/static/css/main.c0beffed.css.map",
+    "main.e3886fd5.js.map": "/static/js/main.e3886fd5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0beffed.css",
+    "static/js/main.e3886fd5.js"
+  ]
+}

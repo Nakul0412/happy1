@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .emoji {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      background: yellow;
+      border: 2px solid #000;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .eye {
+      width: 20px;
+      height: 20px;
+      background: #000;
+      border-radius: 50%;
+      position: absolute;
+    }
+
+    .left-eye {
+      top: 30%;
+      left: 30%;
+    }
+
+    .right-eye {
+      top: 30%;
+      left: 50%;
+    }
+
+    .wink {
+      width: 20px;
+      height: 20px;
+      background: #f0f0f0;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      transition: width 0.3s ease;
+    }
+
+    .mouth {
+      width: 30px;
+      height: 15px;
+      border: 2px solid #000;
+      border-radius: 0 0 50% 50%;
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  </style>
+  <title>Winking Emoji Animation</title>
+</head>
+<body>
+  <div class="emoji">
+    <div class="eye left-eye">
+      <div class="wink left-wink"></div>
+    </div>
+    <div class="eye right-eye"></div>
+    <div class="mouth"></div>
+  </div>
+  <script>
+    const leftWink = document.querySelector('.left-wink');
+
+    leftWink.addEventListener('mouseover', () => {
+      leftWink.style.width = '0';
+    });
+
+    leftWink.addEventListener('mouseout', () => {
+      leftWink.style.width = '20px';
+    });
+  </script>
+</body>
+</html>
